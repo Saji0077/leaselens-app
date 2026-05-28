@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 from pydantic import BaseModel
 from typing import List, Optional
-import database
+from backend import database
 import json
 
 # Lifespan context manager for startup/shutdown events
